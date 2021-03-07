@@ -35,6 +35,16 @@ $ migrate -database ${DB} -path migrations up
 
 The command above runs all migrations that are not currently applied.
 
+### Importing base data
+
+There's some useful base data in `base_data.sql`. Import it into the
+database using `psql`:
+
+```
+$ psql -h <host> -U <user> mandyville < base_data.sql
+```
+
 ### TODO
 
 * [ ] Enable SSL
+* [ ] Add script to spin up dev database
