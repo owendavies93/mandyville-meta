@@ -249,4 +249,8 @@ VALUES
 ('YE', 'Yemen'),
 ('ZM', 'Zambia'),
 ('ZW', 'Zimbabwe'),
-('EU', 'Europe') -- football tournaments are not always country specific
+('EU', 'Europe'), -- football tournaments are not always country specific
+('EN', 'England'),
+('WA', 'Wales'),
+('AB', 'Scotland'),
+('TE', 'Northern Ireland');
