@@ -254,3 +254,11 @@ VALUES
 ('WA', 'Wales'),
 ('AB', 'Scotland'),
 ('TE', 'Northern Ireland');
+
+INSERT INTO country_alternate_names (country_id, alternate_name)
+VALUES
+(47, 'China PR'),
+(61, 'Czech Republic'),
+(108, 'Republic of Ireland'),
+(184, 'Russian Federation'),
+(237, 'United States');
