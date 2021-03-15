@@ -260,5 +260,5 @@ VALUES
 (47, 'China PR'),
 (61, 'Czech Republic'),
 (108, 'Republic of Ireland'),
-(184, 'Russian Federation'),
+(184, 'Russia'),
 (237, 'United States');
