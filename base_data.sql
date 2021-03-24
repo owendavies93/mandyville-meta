@@ -253,12 +253,25 @@ VALUES
 ('EN', 'England'),
 ('WA', 'Wales'),
 ('AB', 'Scotland'),
-('TE', 'Northern Ireland');
+('TE', 'Northern Ireland'),
+('XK', 'Kosovo');
 
 INSERT INTO country_alternate_names (country_id, alternate_name)
 VALUES
+(42, 'Cape Verde Islands'),
 (47, 'China PR'),
+(52, 'Congo DR'),
+(56, 'Côte d’Ivoire'),
 (61, 'Czech Republic'),
 (108, 'Republic of Ireland'),
+(120, 'Korea Republic'),
+(165, 'FYR Macedonia'),
+(182, 'Reunion'),
 (184, 'Russia'),
+(188, 'St. Kitts and Nevis'),
+(189, 'St. Lucia'),
+(195, 'São Tomé and Príncipe'),
+(195, 'São Tomé e Príncipe'),
+(203, 'Slovakia'),
+(218, 'Syria'),
 (237, 'United States');
