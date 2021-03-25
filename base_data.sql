@@ -264,6 +264,7 @@ VALUES
 (56, 'Côte d’Ivoire'),
 (61, 'Czech Republic'),
 (108, 'Republic of Ireland'),
+(119, 'Korea DPR'),
 (120, 'Korea Republic'),
 (165, 'FYR Macedonia'),
 (182, 'Reunion'),
@@ -274,4 +275,5 @@ VALUES
 (195, 'São Tomé e Príncipe'),
 (203, 'Slovakia'),
 (218, 'Syria'),
+(219, 'Chinese Taipei'),
 (237, 'United States');
