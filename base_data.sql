@@ -277,3 +277,22 @@ VALUES
 (218, 'Syria'),
 (219, 'Chinese Taipei'),
 (237, 'United States');
+
+INSERT INTO positions (name, position_category)
+VALUES
+('GK', 'Goalkeeper'),
+('DL', 'Defender'),
+('DC', 'Defender'),
+('DR', 'Defender'),
+('DML', 'Midfielder'),
+('DMC', 'Midfielder'),
+('DMR', 'Midfielder'),
+('ML', 'Midfielder'),
+('MC', 'Midfielder'),
+('MR', 'Midfielder'),
+('AML', 'Midfielder'),
+('AMC', 'Midfielder'),
+('AMR', 'Midfielder'),
+('FWL', 'Forward'),
+('FW', 'Forward'),
+('FWR', 'Forward');
