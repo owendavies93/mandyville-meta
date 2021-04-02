@@ -1,0 +1,1 @@
+ALTER TABLE IF EXISTS fixtures ADD COLUMN fixture_date DATE;
