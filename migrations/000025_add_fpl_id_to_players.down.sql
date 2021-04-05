@@ -1,0 +1,7 @@
+BEGIN;
+
+DROP INDEX IF EXISTS idx_players_fpl_id;
+
+ALTER TABLE players DROP COLUMN IF EXISTS fpl_id;
+
+COMMIT;
