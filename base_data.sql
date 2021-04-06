@@ -296,3 +296,10 @@ VALUES
 ('FWL', 'Forward'),
 ('FW', 'Forward'),
 ('FWR', 'Forward');
+
+INSERT INTO fpl_positions (element_type_id, element_type)
+VALUES
+(1, 'Goalkeeper'),
+(2, 'Defender'),
+(3, 'Midfielder'),
+(4, 'Forward');
