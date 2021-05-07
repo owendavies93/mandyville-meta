@@ -58,7 +58,7 @@ output_query_result "SELECT * FROM players WHERE id IN ($PLAYER_IDS)"
 end_output
 
 start_output "fpl_players_gameweeks (id, player_id, fpl_gameweek_id, \
-total_points, bonus_points, bps, value, selected, transfers_in, transfers_out"
+total_points, bonus_points, bps, value, selected, transfers_in, transfers_out)"
 
 output_query_result "SELECT * FROM fpl_players_gameweeks WHERE player_id IN \
 ($PLAYER_IDS)"
