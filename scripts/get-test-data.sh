@@ -42,7 +42,7 @@ export PGPASSWORD=$(yq e '.database.pass' $CONFIG)
 
 # Get some base tables that have fairly fixed content and are small
 pg_dump -d $DB -h $HOST -U $USER -a -t countries -t competitions \
--t fpl_gameweeks -t positions --no-comments > $OUTPUT_FILE
+-t fpl_gameweeks -t positions -t fpl_positions --no-comments > $OUTPUT_FILE
 
 # Generate some player IDs
 PLAYER_IDS=$(psql $DB -h $HOST -U $USER -t -c \
@@ -61,6 +61,14 @@ start_output "fpl_players_gameweeks (id, player_id, fpl_gameweek_id, \
 total_points, bonus_points, bps, value, selected, transfers_in, transfers_out)"
 
 output_query_result "SELECT * FROM fpl_players_gameweeks WHERE player_id IN \
+($PLAYER_IDS)"
+
+end_output
+
+start_output "fpl_season_info (id, player_id, season, fpl_season_id, \
+fpl_positions_id)"
+
+output_query_result "SELECT * FROM fpl_season_info WHERE player_id IN \
 ($PLAYER_IDS)"
 
 end_output
