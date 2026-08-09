@@ -265,6 +265,8 @@ VALUES
 (61, 'Czech Republic'),
 (108, 'Republic of Ireland'),
 (119, 'Korea DPR'),
+(119, 'North Korea'),
+(120, 'South Korea'),
 (120, 'Korea Republic'),
 (165, 'FYR Macedonia'),
 (182, 'Reunion'),
