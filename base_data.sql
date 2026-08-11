@@ -278,7 +278,14 @@ VALUES
 (203, 'Slovakia'),
 (218, 'Syria'),
 (219, 'Chinese Taipei'),
-(237, 'United States');
+(237, 'United States'),
+(237, 'USA'),
+(52, 'DR Congo'),
+(56, 'Ivory Coast'),
+(29, 'Bosnia-Herzegovina'),
+(227, 'Trinidad & Tobago'),
+(73, 'Faeroe Islands'),
+(10, 'Antigua & Barbuda');
 
 INSERT INTO positions (name, position_category)
 VALUES
