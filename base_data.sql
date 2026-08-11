@@ -285,7 +285,9 @@ VALUES
 (29, 'Bosnia-Herzegovina'),
 (227, 'Trinidad & Tobago'),
 (73, 'Faeroe Islands'),
-(10, 'Antigua & Barbuda');
+(10, 'Antigua & Barbuda'),
+(235, 'UA Emirates'),
+(28, 'Bonaire');
 
 INSERT INTO positions (name, position_category)
 VALUES
