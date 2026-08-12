@@ -1,0 +1,1 @@
+ALTER TABLE fpl_season_info ADD COLUMN active BOOLEAN NOT NULL DEFAULT false;
