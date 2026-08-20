@@ -1,0 +1,8 @@
+BEGIN;
+
+ALTER TABLE fpl_gameweeks
+    ADD COLUMN IF NOT EXISTS draft_deadline TIMESTAMPTZ,
+    ADD COLUMN IF NOT EXISTS waivers_time   TIMESTAMPTZ,
+    ADD COLUMN IF NOT EXISTS trades_time    TIMESTAMPTZ;
+
+COMMIT;
